@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,intial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<title>responsive design</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<header>
+
+	<div class="container">
+		<div id="branding">
+			<h1><span class="highlight animated infinite  flash">D3</span>Engineer</h1>
+		</div>
+		<nav class="navbar" id="nav">
+			<ul>
+				<li class="current"><a href="index.html">Home</a></li>
+				<li><a href="#boxes">Services</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="login.html">Login/Signup</a></li>
+				<li><a href="#quote">Get Quotes</a></li>
+			</ul>
+			<a href="javascript:void(0);" class="icon" onclick="myFunc()">
+					<i class="fa fa-bars"></i>
+				</a>
+		
+		</nav>
+	</div>
+</header>
+<main >
+	<section id="showcase">
+		<div class="container">
+			<h1 class="animated bounce">Effordable proffesional Web  designs</h1>
+			<p class="animated  bounce">You can finds more and more beutifull responsive desgins here.so many design provided here which is needed ever for.its truely attractive and may you love to use it for.</p><br><br>
+			<button class="btn btn-warning">Get Started</button>
+		</div>
+	</section>
+	<section id="newsletter">
+		<div class="container">
+			<h1 style="width: 500px;float: left;font-size: 25px;">Subscribe for more Update and designs</h1>
+			<form>
+				<div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+				<button type="submit" class="btn btn-warning">Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<section id="boxes">
+		<div class="container">
+			<h1>Services</h1>
+			<div class="row">
+			<div class="col box_1" onClick="location.href='box1.html'" data-aos="zoom-in-up">
+				<br><br><br><h3>Responsive Designs</h3>
+				<p>A paragraph is a series of related sentences developing a central idea, called the topic.</p>
+				<span><img src="./img/gffy.gif" height="100" width="100" ></span>
+			</div>
+			<div class="col box_2" onClick="location.href='index.html'" data-aos="zoom-in-up">
+				<br><br><br><h3>E-Commerce</h3>
+				<p>A paragraph is a series of related sentences developing a central idea, called the topic. </p>
+				<span><img src="./img/gffy.gif" height="100" width="100"></span>
+			</div>
+			<div class="col box_3" onClick="location.href='index.html'" data-aos="zoom-in-up">
+				<br><br><br><h3>Portofollio</h3>
+				<p>A paragraph is a series of related sentences developing a central idea, called the topic. </p>
+				<span><img src="./img/gffy.gif" height="100" width="100"></span>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="contactCase">
+		<div class="container">
+			<div class="row">
+			<div class="col backSec" data-aos="flip-up">
+				<h1>Get Quotes</h1>
+		<form style="color: white;" >
+		<div class="form-group">
+    <label for="exampleInputEmail1">User Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter user name">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-success">Get Guote</button>
+</form>
+			</div>
+
+			<div class="col backAbout">
+				<h1 style="color: #333;">About<hr></h1>
+				<p style="color: black;font-size: 17px;">Webflie is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. ... Websites are created using several techniques like HTML,Boostrap,Css ,Jquery  as well as database such as php and mysql and also can learn how to build webpage by signin our website. We designs or build webpages that can help to get easily access with those templats so feel free to using theme to your own projects .</p>
+			</div>
+		</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="container">
+	<a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+	<a href="" class="google"><i class="fa fa-google"></i></a>
+	<a href="" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+	<p>www.webyflie.com, Copyright@2017</p>
+</div>
+</footer>
+<script type="text/javascript">
+	function myFunc() {
+  var x = document.getElementById("nav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

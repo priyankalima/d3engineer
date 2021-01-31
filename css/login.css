@@ -1,0 +1,158 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color:#555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding:14px 16px;
+  font-size: 17px;
+ width: 50%;
+ height: 70px;
+
+
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+ 
+  display: none;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  margin-right: 30%;
+   box-shadow: 0 0 20px;
+}
+
+#SignIn {background-image:linear-gradient(rgba(34,50,67,0.9),rgba(34,50,67,0.7)), url(../img/pic1.jpg);
+	background-size: cover;
+}
+#SignUp {background-image:linear-gradient(rgba(34,50,67,0.9),rgba(34,50,67,0.7)), url(../img/pic1.jpg);
+	background-size: cover;}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #555;
+}
+.container{
+    width: 700px;
+    margin: auto;
+    padding-top: 6%;
+
+ }
+.login{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    margin-left: 17%;
+    color: white;
+    border-radius: 2px;
+ }
+.signup{
+    width: 40%;
+    float: left;
+      margin: 10px;
+      margin-left: 17%;
+    
+        border-radius: 2px;
+  }
+  input{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25px;
+    border:2px solid #e8491d;
+    outline:none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+  }
+
+  h1{
+    text-align: center;
+    height: 30px;
+    
+  }
+  .input{
+  
+    height: 50vh;
+    padding-top: 30px;
+    border:none;
+  }
+  .button{
+    width: 100px;
+    margin-left: 60%;
+    margin-top: 5%;
+    background-color:#e8491d;
+    color: white;
+    border:none;
+  }
+  a{
+    color: white;
+    margin-left: 29px;
+    text-decoration: none;
+   
+    margin-top: 40px;
+  }.fa-google{
+    width: 200px;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+
+  }
+  .fa-facebook{
+    width: 200px;
+    background-color:blue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    
+  }
+  .tab{
+    
+   box-shadow: 0 0 20px;
+    width: 700px;
+    height: 70px;
+  }
+
+.google{
+  width: 30%;
+  float: left;
+  
+}
+.facebook{
+   width: 30%;
+  float: left;
+ 
+ 
+}
+.soc-div{
+  width: 700px;
+  margin: auto;
+}
+.fa-lock{
+  padding-right: 20px;
+}
+.fa-edit{
+   padding-right: 20px;
+}

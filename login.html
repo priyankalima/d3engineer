@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+<style>
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="tab">
+<button class="tablink" onclick="openPage('SignIn', this,'#e8491d' )" id="defaultOpen"><i class="fa fa-lock"></i>Sign In</button>
+<button class="tablink" onclick="openPage('SignUp', this,'#e8491d' )"><i class="fa fa-edit"></i>Sign Up</button>
+</div>
+
+<div id="SignIn" class="tabcontent">
+
+ <div class="login">
+
+ <div class="input">
+
+<input type="text" name="name" placeholder="Enter your email"><br>
+<input type="password" name="name" placeholder="enter your password"><br>
+  <br>
+<a href="" style="font-family: monospace;">Forgot Password</a>
+<input type="button" name="" value="Sign In"  class="button">
+<br><br>
+<div class="soc-div">
+<div class="google"><a href="#"><i class="fa fa-google">oogle</i></a></div>
+<div class="facebook">
+  <a  href="#"><i class="fa fa-facebook">acebook</i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="SignUp" class="tabcontent">
+  <div class="signup">
+
+ <div class="input">
+<input type="text" name="name" placeholder="Enter your username">
+<input type="text" name="name" placeholder="Enter your email">
+<input type="password" name="name" placeholder="Enter your password">
+<input type="password" name="name" placeholder="Enter your confirm-password">
+<input type="button" name="" value="Sign Up" class="button">
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
